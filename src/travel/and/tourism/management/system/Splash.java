@@ -23,7 +23,7 @@ public class Splash extends JFrame implements Runnable {
 
     public void run() {
         try {
-            Thread.sleep(6000);
+            Thread.sleep(3000);
             setVisible(false);
             dispose();
         } catch (Exception e) {
@@ -63,7 +63,5 @@ public class Splash extends JFrame implements Runnable {
             }
         }
 
-        frame.setLocation((screenWidth - maxWidth) / 2, (screenHeight - maxHeight) / 2);
-        frame.setSize(maxWidth, maxHeight);
     }
 }
